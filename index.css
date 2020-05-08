@@ -1,0 +1,94 @@
+body {
+  background-color: lightblue;
+}
+
+form {
+  background-color: whitesmoke;
+  font-family: serif;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Raleway", sans-serif;
+  border-radius: 2%;
+}
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h2 {
+  font-size: 15px;
+  padding-top: 20px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+td {
+  padding: 8px;
+}
+
+table {
+  padding-bottom: 3%;
+  margin: 0 auto;
+}
+
+td:first-child {
+  text-align: right;
+  width: 45%;
+}
+td {
+  text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  width: 70%;
+  height: 25px;
+}
+select {
+  background: lightgray;
+  border: 10 solid black;
+  border-radius: 5%;
+  padding: 3px;
+}
+
+textarea {
+  resize: none;
+  border-radius: 2%;
+}
+
+button[type="reset"] {
+  border: 2px solid #ff0000;
+  background-color: #ff0000;
+  color: white;
+  padding: 12px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10%;
+}
+
+button[type="reset"]:hover {
+  background-color: white;
+  color: #ff0000;
+}
+
+button[type="submit"] {
+  border: 2px solid green;
+  background-color: green;
+  color: white;
+  padding: 12px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10%;
+}
+
+button[type="submit"]:hover {
+  background-color: white;
+  color: green;
+}
+input::placeholder {
+  padding: 5px;
+  color: gray;
+}
